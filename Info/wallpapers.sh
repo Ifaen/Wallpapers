@@ -1,8 +1,17 @@
 #!/usr/bin/env bash
 
+# Ensure jq is installed
+if ! command -v jq &> /dev/null; then
+  echo "jq is not installed. Please install jq to run this script."
+  exit 1
+fi
+
 WALLPAPER_DIR="$HOME/Media/Wallpapers"
 OUTPUT_FILE="$WALLPAPER_DIR/README.md"
-METADATA_FILE="wallpapers.json"
+METADATA_FILE="$WALLPAPER_DIR/Info/wallpapers.json"
+
+# Make backup file
+cp "$METADATA_FILE" "${METADATA_FILE}.bak"
 
 # Temp file to build new README content
 TMP_FILE=$(mktemp)
@@ -24,14 +33,17 @@ done < <(jq -r '.[] | [.filename, .author, .source, .description] | @tsv' "$META
 
 # Collect current filenames and keep order
 current_files=()
-while IFS= read -r filepath; do
+new_files=0
+updated_files=0
+for filepath in $(find "$WALLPAPER_DIR" -maxdepth 1 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) | sort); do
   filename=$(basename "$filepath")
   current_files+=("$filename")
 
   if [[ -z "${metadata_map[$filename]}" ]]; then
     metadata_map["$filename"]="| $filename | Unknown | Unknown | TODO |"
+    new_files=$((new_files + 1))
   fi
-done < <(find "$WALLPAPER_DIR" -maxdepth 1 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) | sort)
+done
 
 # Write sorted entries to README
 for filename in "${current_files[@]}"; do
@@ -55,3 +67,9 @@ done
 
 # Move new README into place
 mv "$TMP_FILE" "$OUTPUT_FILE"
+
+# Print changes summary
+echo "Changes Summary:"
+echo "New files added: $new_files"
+echo "Files updated: $updated_files"
+echo "Metadata and README have been updated successfully."
