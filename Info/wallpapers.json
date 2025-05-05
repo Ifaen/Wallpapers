@@ -84,34 +84,10 @@
         "description": "TODO"
     },
     {
-        "filename": "fluids.png",
+        "filename": "Fractal.png",
         "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
-    },
-    {
-        "filename": "frame.png",
-        "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
-    },
-    {
-        "filename": "Gb7v_7pakAA9gKJ.jpeg",
-        "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
-    },
-    {
-        "filename": "GcWyy5DWMAMS_wN.jpg",
-        "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
-    },
-    {
-        "filename": "glitch-hand.jpg",
-        "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
+        "source": "Obtained from [GitHub](https://github.com/D3Ext/aesthetic-wallpapers/blob/main/pages/Page3.md)",
+        "description": "Black background with fractal patterns"
     },
     {
         "filename": "Golden_Blood_of_the_Cartel.jpg",
@@ -121,51 +97,63 @@
     },
     {
         "filename": "Hyprland_default-background_2.png",
-        "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
+        "author": "Ecatherina Farias",
+        "source": "[Artstation](https://kathcfarias.artstation.com/projects/PXR59n)",
+        "description": "Hyprland default wallpaper with official mascot and logo"
     },
     {
         "filename": "Hyprland_default-background.png",
-        "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
+        "author": "End_4",
+        "source": "Obtained from [Hyprland](https://hyprland.org/news/contestWinners)",
+        "description": "Hyprland default wallpaper with logo"
     },
     {
-        "filename": "Iqoo.jpg",
-        "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
+        "filename": "Iqoo_Cyberpunk_City_1.jpg",
+        "author": "XuTeng Pan",
+        "source": "[Artstation](https://www.artstation.com/artwork/GX6Rvd)",
+        "description": "Iqoo style frame and scene design, modeling using moi3d and c4d"
     },
     {
-        "filename": "jayce-alternate-bad-ending-universe.png",
-        "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
+        "filename": "Iqoo_Cyberpunk_City_2.jpg",
+        "author": "XuTeng Pan",
+        "source": "[Artstation](https://www.artstation.com/artwork/GX6Rvd)",
+        "description": "Iqoo style frame and scene design, modeling using moi3d and c4d"
     },
     {
-        "filename": "league-of-legends_jinx_arcane_season-2_ep-9.webp",
-        "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
+        "filename": "Jayce_Arcane_Fanart.jpg",
+        "author": "PIPIPIPIPIFOREN",
+        "source": "[X](https://x.com/PIPIPIPIPIFOREN/status/1857087463388242429/photo/1)",
+        "description": "Fanart of Jayce in Arcane"
     },
     {
-        "filename": "league-of-legends_katarina_chosen-of-the-wolf-skin_splash-art.jpg",
-        "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
+        "filename": "Jayce_Arcane_Season-2_Episode-6.png",
+        "author": "Fortiche",
+        "source": "[Arcane S2 E6](https://www.imdb.com/title/tt15496430)",
+        "description": "Screenshot of Jayce of the Alternate Universe in Arcane Season 2 Episode 6"
     },
     {
-        "filename": "league-of-legends_leblanc_splash-art.jpg",
-        "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
+        "filename": "Jinx_Arcane_Season-2_Episode-9.webp",
+        "author": "Fortiche",
+        "source": "[Arcane S2 E9](https://www.imdb.com/title/tt15496440)",
+        "description": "Screenshot of Jinx in Arcane Season 2 Episode 9"
     },
     {
-        "filename": "league-of-legends_viktor_arcane_season-2_ep-9.png",
+        "filename": "Katarina_League-of-Legends_Chosen-of-the-Wolf_skin-splash-art.jpg",
+        "author": "Terence Cantal",
+        "source": "[Artstation](https://www.artstation.com/artwork/YG81Qb)",
+        "description": "SplashArt of the skin Chosen of the Wolf for Katarina in League of Legends"
+    },
+    {
+        "filename": "Leblanc_League-of-Legends_splash-art.jpg",
         "author": "Unknown",
-        "source": "Unknown",
-        "description": "TODO"
+        "source": "Obtained from [X](https://x.com/LeagueOfLegends/status/1902019777746571422/photo/1)",
+        "description": "SplashArt of LeBlanc in League of Legends"
+    },
+    {
+        "filename": "Mel_League-of-Legends_splash-art.jpg",
+        "author": "Bo Chen",
+        "source": "[Artstation](https://www.artstation.com/artwork/8B5ZJx)",
+        "description": "SplashArt of Mel in League of Legends"
     },
     {
         "filename": "My_Moon.jpg",
@@ -210,6 +198,12 @@
         "description": "TODO"
     },
     {
+        "filename": "Sands_of_Time.jpg",
+        "author": "Hexxio",
+        "source": "[Behance](https://www.behance.net/gallery/53443145/Sands-Of-Time)",
+        "description": "Hand reaching for the sky, while falling itself like sand"
+    },
+    {
         "filename": "skull-melting-ai-5120x2880-13106.jpg",
         "author": "Unknown",
         "source": "Unknown",
@@ -229,6 +223,18 @@
     },
     {
         "filename": "The_Darkest_Hour.jpg",
+        "author": "Unknown",
+        "source": "Unknown",
+        "description": "TODO"
+    },
+    {
+        "filename": "Viktor_Arcane_Season-2_Episode-2.jpeg",
+        "author": "Fortiche",
+        "source": "[Arcane S2 E2](https://www.imdb.com/title/tt34383692/)",
+        "description": "Viktor looking at the camera with resolution. Screenshot from Arcane Season 2 Episode 2"
+    },
+    {
+        "filename": "Viktor_Arcane_season-2_Episode-9.png",
         "author": "Unknown",
         "source": "Unknown",
         "description": "TODO"
